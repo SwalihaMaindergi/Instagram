@@ -1,0 +1,162 @@
+/* Body */
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        red,
+        yellow
+    );
+}
+
+.container{
+    text-align: center;
+}
+.txt{
+    font-size: 17px;
+    color: white;
+    letter-spacing: 1px;
+    margin: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.page{
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+
+
+/* Instagram */
+.insta{
+    font-size: 30px;
+    padding: 20px 0px;
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+/* Form */
+form{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -15px;
+    left: 13%;
+}
+
+form input{
+    font-size: 15px;
+    height: 35px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+form input:hover{
+    font-size: 17px;
+    border: 1px solid black;
+    background-color: ghostwhite;
+    box-shadow: 3px 3px 10px gray;
+    outline: none;
+    transition: 0.4s ease;
+}
+input:hover::placeholder{
+    font-size: 12px;
+    transform: translateY(-10px);
+}
+
+form button{
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 5px 0px;
+    margin-top: 5px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-family: 'Baloo Bhai 2', cursive;
+    cursor: pointer;
+}
+
+form .option{
+    margin: 10px 0px;
+    font-weight: bold;
+    position: relative;
+}
+form .option:before{
+    content: "";
+    width: 38%;
+    height: 2px;
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    border-radius: 50px;
+}
+form .option:after{
+    content: "";
+    width: 38%;
+    height: 2px;
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    border-radius: 50px;
+    transform: translateY(-50%);
+}
+
+
+/* Facebook link and logo */
+.fblink{
+    margin-top: -5px;
+    width: 100%;
+}
+.fblink span{
+    font-size: 18px;
+    margin-right: 5px;
+    color: blue;
+}
+.fblink a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Forget Password */
+.forget-id{
+    margin: 15px;
+}
+.forget-id a{
+    text-decoration: none;
+    color: tomato;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+/* Sign-up */
+.page .sign-up{
+    width: 90%;
+    height: 40px;
+    border: 1px solid gray;
+    position: relative;
+    left: 5%;
+    margin-top: 20px;
+}
+.sign-up .txt1{
+    position: relative;
+    top: 10px;
+}
+.sign-up a{
+    color: tomato;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 3px;
+}
